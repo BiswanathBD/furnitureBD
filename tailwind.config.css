@@ -1,0 +1,9 @@
+@import "tailwindcss";
+.macondo{
+  font-family: "Macondo", cursive;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
