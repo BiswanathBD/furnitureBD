@@ -24,44 +24,64 @@
       rel="stylesheet"
     />
     <style>
-      nav ul .nav {
+      nav ul li {
         padding: 0px 10px 3px;
-        border-bottom: 3px solid #f9be2900;
-        transition: all 0.2s ease;
       }
-      nav ul .nav:hover {
-        border-bottom: 3px solid #f9bf29;
+      nav ul li:hover {
+        color: #F9BF29;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+        font-size: 16px;
       }
     </style>
   </head>
   <body class="inter">
     <header class="bg-[#385D50]">
-      <nav class="p-2.5 flex justify-between items-center">
-        <h3 class="text-white text-3xl font-extrabold macondo mx-2.5">
+      <nav class="p-2.5 flex justify-between items-center w-fixed">
+        <h3 class="text-white text-3xl font-extrabold macondo mx-2.5 md:mx-5">
           Furn<span class="text-[#F9BF29]">i</span>ture<span
             class="text-[#F9BF29]"
             >BD</span
           >
         </h3>
-        <ul class="flex gap-5 text-white font-light">
-          <li class="nav">Home</li>
-          <li class="nav">About Us</li>
-          <li class="nav">Service</li>
-          <li class="nav">Blog</li>
-          <li class="nav">Contact Us</li>
-          <li><i class="fa-regular fa-user ml-5"></i></li>
-          <li><i class="fa-solid fa-cart-shopping mr-5"></i></li>
-        </ul>
+        <nav
+          class="md:flex items-center gap-5 text-white font-light text-center"
+        >
+          <ul class="hidden md:flex items-center justify-between">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Service</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+          </ul>
+          <ul class="flex gap-2 items-center md:mr-20">
+            <li><i class="fa-regular fa-user"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+          </ul>
+        </nav>
       </nav>
-      <section class="px-20 md:flex gap-5">
+      <section
+        class="px-5 md:flex gap-5 w-fixed pb-5 md:pb-0"
+      >
         <div class="p-2.5">
-          <h1 class="text-white font-semibold text-[54px] my-20">Modern Interior <br>Design Studio</h1>
-          <button class="text-[#385D50] px-9 py-3 bg-[#F9BF29] font-medium rounded-[30px] hover:bg-[#ffffff] transition-all">Shop Now</button>
-          <button class="text-white px-[34px] py-[10px] border-2 border-[#ffffff50] font-medium rounded-[30px] mx-4 hover:bg-[#ffffff] transition-all hover:text-[#385D50]">Explore</button>
+          <h1
+            class="text-white font-semibold text-[36px] md:text-[54px] my-20"
+          >
+            Modern Interior <br />Design Studio
+          </h1>
+            <button
+              class="text-[#385D50] px-9 py-3 bg-[#F9BF29] font-medium rounded-[30px] hover:bg-[#ffffff] transition-all"
+            >
+              Shop Now
+            </button>
+            <button
+              class="text-white px-[34px] py-[10px] border-2 border-[#ffffff50] font-medium rounded-[30px] hover:bg-[#ffffff] transition-all hover:text-[#385D50] m-2.5"
+            >
+              Explore
+            </button>
         </div>
-        <div  class="relative flex-1">
-        <img class="relative z-20" src="./Asset/couch 1.png" alt="">
-        <img class="absolute top-20 right-0" src="./Asset/Dot.png" alt="">
+        <div class="relative flex-1">
+          <img class="relative z-20" src="./Asset/couch 1.png" alt="" />
+          <img class="absolute top-20 right-0 z-10" src="./Asset/Dotted header.png" alt="" />
         </div>
       </section>
     </header>
