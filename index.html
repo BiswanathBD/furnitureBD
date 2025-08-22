@@ -28,8 +28,8 @@
         padding: 0px 10px 3px;
       }
       nav ul li:hover {
-        color: #F9BF29;
-        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.50);
+        color: #f9bf29;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
         font-size: 16px;
       }
     </style>
@@ -59,31 +59,63 @@
           </ul>
         </nav>
       </nav>
-      <section
-        class="px-5 md:flex gap-5 w-fixed pb-5 md:pb-0"
-      >
-        <div class="p-2.5">
-          <h1
-            class="text-white font-semibold text-[36px] md:text-[54px] my-20"
-          >
+      <section class="px-5 md:flex justify-center gap-5 w-fixed pb-5 md:pb-0">
+        <div class="p-2.5 w-fit mx-auto">
+          <h1 class="text-white font-semibold text-[36px] md:text-[54px] mt-20 md:my-20">
             Modern Interior <br />Design Studio
           </h1>
-            <button
-              class="text-[#385D50] px-9 py-3 bg-[#F9BF29] font-medium rounded-[30px] hover:bg-[#ffffff] transition-all"
-            >
-              Shop Now
-            </button>
-            <button
-              class="text-white px-[34px] py-[10px] border-2 border-[#ffffff50] font-medium rounded-[30px] hover:bg-[#ffffff] transition-all hover:text-[#385D50] m-2.5"
-            >
-              Explore
-            </button>
+          <button
+            class="text-[#385D50] px-9 py-3 bg-[#F9BF29] font-medium rounded-[30px] hover:bg-[#ffffff] transition-all"
+          >
+            Shop Now
+          </button>
+          <button
+            class="text-white px-[34px] py-[10px] border-2 border-[#ffffff50] font-medium rounded-[30px] hover:bg-[#ffffff] transition-all hover:text-[#385D50] m-2.5 md:mb-20"
+          >
+            Explore
+          </button>
         </div>
         <div class="relative flex-1">
           <img class="relative z-20" src="./Asset/couch 1.png" alt="" />
-          <img class="absolute top-20 right-0 z-10" src="./Asset/Dotted header.png" alt="" />
+          <img
+            class="absolute top-20 right-0 z-10"
+            src="./Asset/Dotted header.png"
+            alt=""
+          />
         </div>
       </section>
     </header>
+
+    <section class="flex flex-wrap justify-evenly md:justify-between items-center w-fixed mt-16 p-5">
+      <div class="max-w-56 m-5">
+        <h2 class="text-3xl text-[#2F2F2F] font-semibold">
+          Crafted with excellent material</h2>
+        <p class="text-[#6A6A6A] text-sm font-medium my-7">
+          Donec mattis porta eros, aliquet finibus risus interdum at. Nulla
+          vivethe as it was for us to know what was to be done.</p>
+        <button class="text-white bg-black px-8 py-3 font-medium rounded-[30px]">
+          Explore</button>
+      </div>
+
+      <div class="text-center relative w-fit m-5">
+        <div class="relative z-20 px-14">
+        <img src="./Asset/product-1.png" alt="">
+        <p class="font-semibold mt-10">Nordic CHAIR</p>
+        <P class="text-lg font-bold mb-8">$50.00</P>
+        <i class="fa-solid fa-circle-plus text-3xl"></i>
+      </div>
+      <img class="absolute bottom-4 z-10" src="./Asset/Rectangle 4.png" alt="">
+    </div>
+    <div class="text-center w-fit m-5">
+      <img src="./Asset/product-2.png" alt="">
+        <p class="font-semibold mt-10">Kruzo Aero Chair</p>
+        <P class="text-lg font-bold">$78.00</P>
+    </div>
+    <div class="text-center w-fit m-5"> 
+      <img src="./Asset/product-3.png" alt="">
+        <p class="font-semibold mt-10">Ergonomic Chair</p>
+        <P class="text-lg font-bold">$43.00</P>
+      </div>
+    </section>
   </body>
 </html>
